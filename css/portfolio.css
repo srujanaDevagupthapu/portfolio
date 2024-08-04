@@ -1,0 +1,210 @@
+@import url("utilities.css");
+
+:root{
+    --maroon: #9e1515;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    height: 90px;
+    background-color: black;
+}
+.myportfolio{
+    font-size: 40px;
+}
+.myportfolio h1{
+    color: rgb(252, 252, 252);
+}
+.myportfolio h1 span{
+    color: red;
+}
+.sections{
+    font-size: 20px; 
+}
+.sections a{
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(247, 243, 243);
+    font-weight: bold;
+    margin-right: 30px;
+}
+.btn-1{
+    color: rgb(255, 255, 255);
+    background-color: red;
+    font-weight: bold;
+    border: 2px solid transparent;
+}
+.btn-1:hover{
+    color: white;
+    background-color: maroon;
+    border: 2px solid white;
+    onclick:var(--maroon);
+}
+.btn-2{
+    color: red;
+    background-color: rgba(0, 0, 0, 0.0);
+    font-weight: bold;
+    border: 2px solid maroon;
+}
+.btn-2:hover{
+    color: white;
+    background-color: rgba(255, 0, 0, 0.2);
+    font-weight: bold;
+    border: 2px solid white;
+}
+
+
+body{
+    background-color: white;
+}
+.dark-mode {
+ background-color: rgb(48, 53, 65);
+ color: white;
+}
+
+
+.hero{
+    height:950px;
+    background: url(/images/BG-abs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 30% 100%, 0 90%);
+}
+body .about{
+    height: 600px;
+}
+body .hero img{
+    height: 550px;
+    width: 550px;
+    margin: auto;
+    border-radius:50px;
+    background-image: linear-gradient(to right, rgba(0,0,0,1) 25%,rgba(0,0,0,0.7) 60%, rgba(0,0,0,0));
+}
+body .hero .info .hello{
+    font-size: 40px;
+    margin-left: 20px;
+}
+body .hero .info .name{
+    font-size: 200px;
+    background: url(/images/red\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+body .hero .info .surname{
+    font-size: 116px;
+    background: url(/images/red\ background.jpg);
+    background-size: cover;
+    background-position: center;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    margin-top: -10px;
+}
+body .hero .info p{
+    color: rgb(204, 204, 204);
+    font-size: 25px;
+    margin-top: 30px;
+    width: 900px;
+}
+body .hero .info button{
+    margin-top: 50px;
+}
+
+
+body .about img{
+    height: 500px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+}
+body .about img:hover{
+    border: 2px solid rgba(255, 0, 0, 0.4) ;
+    transition: all 0.2s ease;
+}
+body .about .details h1{
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+body .about .details h1 span{
+    color: red;
+}
+body .about .details{
+    margin-left: -30px;
+}
+body .about .details .value{
+    margin-left: -20px;
+    font-size: 30px;
+    line-height: 50px;
+    border: 2px solid transparent;
+    padding: 0 20px;
+    border-radius: 10px;
+}
+body .about .details .value:hover{
+    border: 2px solid rgba(255, 0, 0, 0.4);
+    transition: all 0.2s ease;
+}
+body .about .details .value i{
+    margin-right: 20px;
+}
+body .about .details .value span{
+    font-weight: bold;
+}
+
+body .about .details .value:hover i{
+    color: red;
+    transition: all 0.2s ease;
+}
+body .about .details .value:hover span{
+    color: red;
+    transition: all 0.2s ease;
+}
+
+
+
+/** arts**/
+body .myarts{
+    height: 900px;
+    width: 100%;
+    margin: auto;
+    background: url(/images/BG-abs.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:fixed;
+    background-size: cover;
+    clip-path: polygon(0 10%, 70% 0, 100% 10%, 100% 90%, 30% 100%, 0 90%);
+}
+body .myarts .heading{
+    height: 100px;
+    width: 100%;
+    margin-left: 200px;
+    transform: translateY(80px);
+}
+body .myarts .heading h1{
+    color: white;
+    font-size: 50px;
+    align-content: center;
+}
+body .myarts .heading span{
+    color: red;
+    font-size: 50px;
+    align-content: center;
+}
+body .myarts .heading p{
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+    align-content: center;
+}
+body .myarts .arts .art img{
+    margin-top: 150px;
+    margin-right:auto;
+    height: 500px;
+    width: 450px; 
+    border-radius: 10px;
+} 

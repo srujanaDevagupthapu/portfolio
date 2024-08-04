@@ -1,0 +1,35 @@
+.flex{
+    display: flex;
+}
+.fd{
+    flex-direction: column;
+}
+.jcc{
+    justify-content: center;
+}
+.jic{
+    justify-items: center;
+}
+.acc{
+    align-content: center;
+}
+.aic{
+    align-items: center;
+}
+.jcse{
+    justify-content: space-evenly;
+}
+.tac{
+    text-align: center;
+}
+
+
+
+
+.btn{
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 2px 30px;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srujana's Portfolio</title>
+    <link rel="icon" href="/images/s-icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <nav class="flex jcse aic">
+        <div class="myportfolio">
+            <h1><span>My</span>Portfolio</h1>
+        </div>
+        <div class="sections">
+            <a href="#">About</a>
+            <a href="#">Arts</a>
+        </div>
+        <button style="font-size: 30px;" onclick="myFunction()">Dark Mode</button>
+    </nav>
+    
+    <div class="hero flex">
+        <img  src="/images/BW-side.png" alt="">
+        <div class="info acc">
+            <h3 class="hello">Hello, I am</h3> 
+            <h1 class="name">Srujana</h1>
+            <h1 class="surname">Devagupthapu</h1>  
+            <p>I enjoy innovation and love to experiment with different ideas.
+                I am known for inspiring and devising original, 
+                thought-provoking concepts. along with my passion for this field, 
+                align with the qualities you desire.
+                I excel in a workplace that promotes a culture of consensus-driven and high-energy teamwork.
+            </p>
+        </div>
+    </div>
+
+    <div class="about flex jcse aic">
+        <div class="details">
+            <h1>About <span>Me</span></h1>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>Father Name : <span>Subrahmanyam</span></div>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>Mother Name : <span>Sri Lakshmi</span></div>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>D.O.B : <span>11-05-2004</span></div>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>Gender : <span>Female</span></div>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>Religion : <span>Hindu</span></div>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>Marrital Status : <span>Un-Married</span></div>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>Place : <span>Andhra Pradesh</span></div>
+            <div class="value"><i class="fa-solid fa-caret-right"></i>Nationality: <span>Indian</span></div>
+        </div>
+        <img src="/images/profile-photo.jpg" alt="profile pic">
+    </div>
+    
+    <div class="myarts">
+        <div class="heading tac">
+            <h1><span>My</span>Arts</h1>
+            <p>“Art is not what you see, but what you make others see.” – Edgar Degas</p>
+        </div>
+        <div class="arts">
+            <div class="art">
+                <img class="img" src="/images/art-1.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-2.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-3.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-4.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-5.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-6.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-7.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-8.jpg" alt="">
+            </div>
+            <div class="art">
+                <img class="img" src="/images/art-9.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $('.arts').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 550,
+        cssEase: 'linear'
+        });
+
+        function myFunction() {
+       var element = document.body;
+       element.classList.toggle("dark-mode");
+       }
+	</script>
+</body>
+</html>
